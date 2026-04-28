@@ -1,0 +1,15 @@
+{
+  "name": "nevervim",
+  "type": "module",
+  "version": "0.0.1",
+  "files": [
+    "nevervim_bg.wasm",
+    "nevervim.js",
+    "nevervim.d.ts"
+  ],
+  "main": "nevervim.js",
+  "types": "nevervim.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
